@@ -2,7 +2,7 @@
 #include<string.h>
 
 int main(){
-    // char arr[] = {'H','e','l','l','o','_','B','a','b','y'};
+    char arr[] = {'H','e','l','l','o','_','B','a','b','y'};
     char str[] = "kunal"; 
 
     // gets(str);
@@ -10,15 +10,15 @@ int main(){
     puts("the input is: ");
     puts(str);
 
-    // printf("Size of string is: %d ", sizeof(str));
+    printf("Size of string is: %zu\n", sizeof(str));
 
+    printf("Size of arr is: %zu\n", sizeof(arr));
 
-    // printf("%d", sizeof(arr[]));
-    // int i = 0;
-    // while (brr[i]!= '\0'){
-    //     printf("%c", brr[i]);
-    //     i++;
-    // }
+    int i = 0;
+    while (arr[i]!= '\0') {
+        printf("%c", arr[i]);
+        i++;
+    }
 
     return 0;
 }
