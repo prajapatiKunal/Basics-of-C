@@ -24,6 +24,8 @@ This repository serves as:
 - A reference for beginners learning C programming.
 
 ## Repository Structure
+
+```text
 C-Programming/
 ├── Arrays/
 ├── Basics/
@@ -34,7 +36,7 @@ C-Programming/
 ├── Pointers/
 ├── Recursion/
 └── Strings/
-
+```
 
 ## Technologies Used
 
