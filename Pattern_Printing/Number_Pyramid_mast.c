@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main () {
+    int n;
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+
+    int nsp = n-1;
+    for (int i=1; i<=n; i++ ){
+        for (int j=1; j<=nsp;j++){ //loop for spaces
+            printf(" ");
+        }
+        nsp--;
+
+        for (int k=1; k<=i; k++){ //loop for basic number triangle
+            printf("%d", k);
+
+        }
+        int a = i - 1;
+        for (int l=1; l<=i-1; l++){ //loop for triangle with decreasing numbers
+            printf("%d", a);
+            a--;
+
+        }
+        printf("\n");
+    } 
+    return 0;
+}
