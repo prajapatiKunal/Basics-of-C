@@ -6,18 +6,14 @@ This repository contains all the C programs that I learned and implemented durin
 
 - Basic Input/Output
 - Variables and Data Types
-- Operators and Expressions
 - Conditional Statements (if, if-else, switch)
 - Loops (for, while, do-while)
 - Arrays
 - Strings
 - Functions
 - Pointers
-- Structures and Unions
-- File Handling
-- Dynamic Memory Allocation
 - Pattern Programs
-- Searching and Sorting Algorithms
+
 
 ## Purpose
 
@@ -29,17 +25,15 @@ This repository serves as:
 
 ## Repository Structure
 C-Programming/
-├── Basics/
-├── Operators/
-├── Conditional_Statements/
-├── Loops/
 ├── Arrays/
-├── Strings/
+├── Basics/
+├── Conditional_Statements/
 ├── Functions/
+├── Loops/
+├── Pattern Printing/
 ├── Pointers/
-├── Structures/
-├── File_Handling/
-└── Sorting_Searching/
+├── Recursion/
+└── Strings/
 
 
 ## Technologies Used
